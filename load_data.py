@@ -4,8 +4,8 @@ import os
 
 # Database connection details
 DB_USER = "root"
-DB_PASS = "admin" 
-DB_NAME = "retaildb"
+DB_PASS = "" 
+DB_NAME = "group14kroger"
 DB_HOST = "127.0.0.1"  # Use localhost when using Cloud SQL Auth Proxy
 DB_PORT = 3306
 

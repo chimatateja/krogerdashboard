@@ -32,9 +32,9 @@ storage_client = storage.Client()
 
 # Database configuration with connection pooling
 DB_USER = os.environ.get('DB_USER', 'root')
-DB_PASS = os.environ.get('DB_PASS', 'admin')
-DB_NAME = os.environ.get('DB_NAME', 'retaildb')
-INSTANCE_CONNECTION_NAME = os.environ.get('INSTANCE_CONNECTION_NAME', 'group21cloud:us-central1:retail-instance')
+DB_PASS = os.environ.get('DB_PASS', '')  # No password by default
+DB_NAME = os.environ.get('DB_NAME', 'group14kroger')
+INSTANCE_CONNECTION_NAME = os.environ.get('INSTANCE_CONNECTION_NAME', 'group14kroger:us-west2:group14kroger')
 
 # Create engine with connection pooling
 engine = create_engine(
